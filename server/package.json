@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
-  "bin":{
+  "bin": {
     "orbital": "./src/cli/main.js"
   },
   "scripts": {
@@ -17,9 +17,11 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@ai-sdk/google": "^3.0.67",
     "@clack/prompts": "^1.2.0",
     "@prisma/adapter-pg": "^7.8.0",
     "@prisma/client": "^7.8.0",
+    "ai": "^6.0.174",
     "better-auth": "^1.6.9",
     "boxen": "^8.0.1",
     "chalk": "^5.6.2",
@@ -28,6 +30,8 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "figlet": "^1.11.0",
+    "marked": "^15.0.12",
+    "marked-terminal": "^7.3.0",
     "nodemon": "^3.1.14",
     "pg": "^8.20.0",
     "prisma": "^7.8.0",
